@@ -35,27 +35,30 @@
 true + true = 2 (number)
 
 10++ = 11 (number)
+
 10-- = 9 (number)
+
 1 & 1 = 1 (number)
+
 1 & 0 = 0 (number)
+
 0 & 0 = 0 (number)
+
 1 & 0 = 0 (number)
 
 0 / 1 = 0 (number)
+
 5 + 5 == 10 = true (boolean)
+
 “5” + ”5” == 10 = false (boolean)
+
 “5” * 2 > 9 = true (boolean)
+
 (10 + 10) * 2 = 40 (number)
-10 + 10 * 2 = 30 (number) */
 
-var branco = "preto";
-var preto = "cinza";
-var cinza = "branco";
-var carro = "preto";
-var valor = 30000;
-var prestacao = 750;
+10 + 10 * 2 = 30 (number)
 
-/* A) branco == "branco" = false
+A) branco == "branco" = false
 
 B) branco == cinza = false
 
@@ -68,4 +71,6 @@ E) > var valor = 30000
 > entrada = 3000
 > valor - entrada = 27000
 > prestacao * 36 = 27000
-> será 36 prestações de R$ 750 para pagar o valor do carro ou 12 prestações de R$ 2250 */
+> será 36 prestações de R$ 750 para pagar o valor do carro ou 12 prestações de R$ 2250 
+
+f) Somando as variáveis de cores é formada uma string de quantos caracteres = 16 */
